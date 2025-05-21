@@ -47,17 +47,15 @@ git clone https://github.com/Adrian-Matargi/Formativo_PWBE.git
 cd Formativo_PWBE
 ```
 
-2️⃣ Crie e ative o ambiente virtual
+### 2️⃣ Crie e ative o ambiente virtual
 
-
-<details> <summary><strong>Windows</strong></summary>
 ```bash
 python -m venv env
 env\Scripts\activate
 ```
-</details> <details> <summary><strong>Linux / macOS</strong></summary>
+
+### 3️⃣ Instale as dependências
+
 ```bash
-python3 -m venv env
-source env/bin/activate
+pip install -r requirements.txt
 ```
-</details>
