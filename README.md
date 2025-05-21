@@ -31,4 +31,7 @@ O sistema utiliza autenticação via JWT e controle de permissões por tipo de u
 
 ### 1. Clone o repositório
 
-git clone 
+No seu Terminal
+
+git clone https://github.com/Adrian-Matargi/Formativo_PWBE.git
+cd 
