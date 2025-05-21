@@ -31,6 +31,4 @@ O sistema utiliza autenticação via JWT e controle de permissões por tipo de u
 
 ### 1. Clone o repositório
 
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone 
