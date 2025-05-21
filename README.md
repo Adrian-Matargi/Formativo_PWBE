@@ -45,18 +45,19 @@
 ```bash
 git clone https://github.com/Adrian-Matargi/Formativo_PWBE.git
 cd Formativo_PWBE
+```
 
 2️⃣ Crie e ative o ambiente virtual
+
+
 <details> <summary><strong>Windows</strong></summary>
-bash
-Copiar
-Editar
+```bash
 python -m venv env
 env\Scripts\activate
+```
 </details> <details> <summary><strong>Linux / macOS</strong></summary>
-bash
-Copiar
-Editar
+```bash
 python3 -m venv env
 source env/bin/activate
+```
 </details>
