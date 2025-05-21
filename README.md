@@ -97,7 +97,11 @@ python manage.py runserver
 
 ## 📌 Endpoints Principais
 Recurso	Método	Endpoint	Descrição
+
 Usuários	GET / POST	/usuarios/	Lista ou cadastra usuários
+
 Disciplinas	GET / POST	/disciplinas/	Lista ou cadastra disciplinas
+
 Salas	GET / POST	/salas/	Gerencia as salas disponíveis
+
 Reservas	GET / POST	/reservas/	Cria e visualiza reservas
