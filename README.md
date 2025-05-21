@@ -59,3 +59,37 @@ env\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+
+### 4️⃣ Configure o banco de dados
+
+```bash
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'formativo', #Nome do banco de dados
+        'USER' : 'root', #Nome do usuário 
+        'PASSWORD' : 'senai', #Senha do banco de dados
+        'HOST' : 'localhost', #Endereço
+        'PORT' : '3306' #Porta em que o banco será executado
+    }
+}
+```
+
+### 5️⃣ Execute as migrações do banco de dados
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+### 6️⃣ Crie um superusuário
+
+```bash
+python manage.py createsuperuser
+```
+
+### 7️⃣ Inicie o servidor de desenvolvimento
+
+```bash
+python manage.py runserver
+```
